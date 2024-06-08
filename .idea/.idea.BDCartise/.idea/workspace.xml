@@ -11,22 +11,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4293c7-57f6-412c-991e-ef5320233493" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AuctionService/Entities/Auction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuctionService/Entities/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuctionService/Entities/Status.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionService/Data/AuctionDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionService/Data/DbInitialzer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionService/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BDCartise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BDCartise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionService/AuctionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/AuctionService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionService/Entities/Auction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Entities/Auction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionService/Entities/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Entities/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionService/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDCartise.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BDCartise.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2hZnnElCEP6n3h9XLW5ogvfIDox" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.AuctionService: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,6 +60,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
     "rider.external.source.directories": [
       "/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
       "/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
@@ -54,7 +70,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Auction: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AuctionService: http">
     <configuration name="AuctionService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AuctionService/AuctionService.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -115,6 +131,47 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="AuctionService/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="auctionservice" />
+          <option name="containerName" value="auctionservice" />
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="AuctionService/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,15 +181,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717810631998</updated>
-      <workItem from="1717810633178" duration="758000" />
+      <workItem from="1717810633178" duration="2273000" />
+      <workItem from="1717835875563" duration="2287000" />
+      <workItem from="1717838204069" duration="1319000" />
+      <workItem from="1717839566217" duration="3233000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commint">
+      <option name="closed" value="true" />
+      <created>1717811418519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717811418519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="full project">
+      <option name="closed" value="true" />
+      <created>1717811570982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717811570982</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clean project">
+      <option name="closed" value="true" />
+      <created>1717813586688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717813586688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commint" />
+    <MESSAGE value="full project" />
+    <MESSAGE value="Clean project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean project" />
   </component>
 </project>
