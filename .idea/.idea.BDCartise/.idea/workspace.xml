@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4293c7-57f6-412c-991e-ef5320233493" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuctionService/Data/AuctionDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuctionService/Data/DbInitialzer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuctionService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionService/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionService/Controllers/AuctionController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BDCartise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BDCartise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AuctionService/AuctionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/AuctionService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuctionService/Entities/Auction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Entities/Auction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuctionService/Entities/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Entities/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuctionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuctionService/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionService/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDCartise.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BDCartise.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +40,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.AuctionService: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AuctionService: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/shahinalkabir/Library/Application Support/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/shahinalkabir/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/shahinalkabir/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AuctionService: http">
     <configuration name="AuctionService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AuctionService/AuctionService.csproj" />
@@ -153,7 +146,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -184,7 +180,12 @@
       <workItem from="1717810633178" duration="2273000" />
       <workItem from="1717835875563" duration="2287000" />
       <workItem from="1717838204069" duration="1319000" />
-      <workItem from="1717839566217" duration="3233000" />
+      <workItem from="1717839566217" duration="3543000" />
+      <workItem from="1717857735030" duration="1169000" />
+      <workItem from="1717897824353" duration="713000" />
+      <workItem from="1717941126223" duration="780000" />
+      <workItem from="1718029785429" duration="946000" />
+      <workItem from="1718289518730" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="initial commint">
       <option name="closed" value="true" />
@@ -210,7 +211,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717813586688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="database migration">
+      <option name="closed" value="true" />
+      <created>1717842954215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717842954215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add dtos">
+      <option name="closed" value="true" />
+      <created>1717860777551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717860777551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on Auto mapper .">
+      <option name="closed" value="true" />
+      <created>1717941506129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717941506129</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +248,28 @@
     <MESSAGE value="initial commint" />
     <MESSAGE value="full project" />
     <MESSAGE value="Clean project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean project" />
+    <MESSAGE value="database migration" />
+    <MESSAGE value="add dtos" />
+    <MESSAGE value="Working on Auto mapper ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Auto mapper ." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AuctionService/Controllers/AuctionController.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/AuctionService/Controllers/AuctionController.cs" containingFunctionPresentation="Method 'GetAuctionById'">
+            <startOffsets>
+              <option value="897" />
+            </startOffsets>
+            <endOffsets>
+              <option value="898" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
